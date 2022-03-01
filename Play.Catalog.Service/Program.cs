@@ -8,6 +8,7 @@ using Play.Catalog.Service.Repositories;
 using Play.Catalog.Service.Settings;
 
 var x = 1;
+var y = 2;
 
 var builder = WebApplication.CreateBuilder(args);
 
