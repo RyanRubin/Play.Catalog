@@ -7,6 +7,8 @@ using MongoDB.Driver;
 using Play.Catalog.Service.Repositories;
 using Play.Catalog.Service.Settings;
 
+var x = 1;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
