@@ -1,5 +1,3 @@
-// docker run -d --rm --name mongo -p 27017:27017 -v mongodbdata:/data/db mongo
-
 using Play.Catalog.Service.Entities;
 using Play.Common.MongoDb;
 using Play.Common.Settings;
