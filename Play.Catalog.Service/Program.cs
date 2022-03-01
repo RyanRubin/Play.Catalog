@@ -1,8 +1,8 @@
 // docker run -d --rm --name mongo -p 27017:27017 -v mongodbdata:/data/db mongo
 
 using Play.Catalog.Service.Entities;
-using Play.Catalog.Service.Repositories;
-using Play.Catalog.Service.Settings;
+using Play.Common.MongoDb;
+using Play.Common.Settings;
 
 var builder = WebApplication.CreateBuilder(args);
 
