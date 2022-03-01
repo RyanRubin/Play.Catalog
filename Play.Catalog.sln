@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Play.Catalog.Service", "Play.Catalog.Service\Play.Catalog.Service.csproj", "{F3E7F329-C746-4E33-86B6-1BBF740030EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Play.Catalog.Service", "Play.Catalog.Service\Play.Catalog.Service.csproj", "{F3E7F329-C746-4E33-86B6-1BBF740030EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Play.Common", "Play.Common\Play.Common.csproj", "{AC9EFB08-6056-4959-9EEE-03A3DF0EDC70}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{F3E7F329-C746-4E33-86B6-1BBF740030EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3E7F329-C746-4E33-86B6-1BBF740030EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3E7F329-C746-4E33-86B6-1BBF740030EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC9EFB08-6056-4959-9EEE-03A3DF0EDC70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC9EFB08-6056-4959-9EEE-03A3DF0EDC70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC9EFB08-6056-4959-9EEE-03A3DF0EDC70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC9EFB08-6056-4959-9EEE-03A3DF0EDC70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
