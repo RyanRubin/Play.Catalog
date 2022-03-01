@@ -1,4 +1,5 @@
 ﻿// dotnet pack -o ..\..\packages
+// dotnet pack -p:PackageVersion=1.0.1 -o ..\..\packages
 
 using System.Linq.Expressions;
 

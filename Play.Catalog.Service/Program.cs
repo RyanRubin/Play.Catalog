@@ -1,4 +1,5 @@
 using Play.Catalog.Service.Entities;
+using Play.Common.MassTransit;
 using Play.Common.MongoDb;
 using Play.Common.Settings;
 
@@ -9,6 +10,7 @@ var builder = WebApplication.CreateBuilder(args);
 var serviceSettings = builder.Configuration.GetSection(nameof(ServiceSettings)).Get<ServiceSettings>();
 builder.Services.AddMongo();
 builder.Services.AddMongoRepository<Item>("items");
+builder.Services.AddMassTransitWithRabbitMq();
 
 builder.Services.AddControllers(options =>
 {
